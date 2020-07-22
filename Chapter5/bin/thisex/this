@@ -1,0 +1,15 @@
+this의 역할
+*자신의 메모리를 가리킴
+*생성자에서 다른 생성자를 호출함
+	public Person(){
+		this("이름없음",1); //이렇게 사용하기도 함
+	}
+
+	public Person(String name, int age){
+		this.name = name;
+		this.age = age;
+	}
+*인스턴스 자신의 주소를 반환
+
+super와 비슷함
+super는 상위클래스의 메모리를 가리킴
